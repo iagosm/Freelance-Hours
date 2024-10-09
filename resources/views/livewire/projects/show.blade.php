@@ -1,3 +1,1 @@
-<div>
-  <x-projects.card :$project />
-</div>
+<x-projects.card :$project />
