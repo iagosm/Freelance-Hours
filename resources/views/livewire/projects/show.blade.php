@@ -1,6 +1,3 @@
 <div>
-    <pre>
-        title: {{$project->title}}
-        description: {{! !$project->description !!}}
-    </pre>
+  <x-projects.card :$project />
 </div>
