@@ -12,12 +12,11 @@ class Create extends Component
 {
     
     public Project $project;
-    public bool $modal = true;
+    public bool $modal = false;
     #[Rule(['required', 'email'])]
     public string $email = '';
     #[Rule(['required', 'numeric', 'gt:0'])]
     public int $hours = 0;
-
     public bool $agree = false;
 
     public function render()
