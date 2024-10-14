@@ -1,5 +1,5 @@
 @props(['proposal', 'position'])
-<div class="flex justify-between items-center">
+<div class="flex items-center justify-between">
     <div class="flex items-center space-x-2">
         <div>
             <x-proposals.position

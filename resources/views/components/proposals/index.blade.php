@@ -18,7 +18,7 @@
         <div class="flex flex-col gap-7">
 
             @foreach ($proposals as $proposal)
-            <x-proposals.item :$proposal :position="$loop->index" />
+             <x-proposals.item :$proposal :position="$loop->index" />
             @endforeach
         </div>
 
